@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS autores (
+	id SERIAL NOT NULL,
+	nome VARCHAR(50) NOT NULL,
+
+	CONSTRAINT pk_atr_id PRIMARY KEY (id)
+);
