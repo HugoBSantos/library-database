@@ -57,5 +57,3 @@ VALUES (
 	(SELECT id FROM livros WHERE nome = 'PHP com Programação Orientada a Objetos'),
 	(SELECT id FROM autores WHERE nome = 'Pablo Dalloglio')
 );
-
-SELECT * FROM livro_autor;
