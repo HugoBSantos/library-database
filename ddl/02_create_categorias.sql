@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS categorias (
+	id SERIAL NOT NULL,
+	nome VARCHAR(50) NOT NULL,
+
+	CONSTRAINT pk_ctg_id PRIMARY KEY (id),
+	CONSTRAINT un_ctg_nome UNIQUE (nome)
+);
