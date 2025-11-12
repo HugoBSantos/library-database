@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS editoras (
+	id SERIAL NOT NULL,
+	nome VARCHAR(50) NOT NULL,
+
+	CONSTRAINT pk_edt_id PRIMARY KEY (id),
+	CONSTRAINT un_edt_nome UNIQUE (nome)
+);
