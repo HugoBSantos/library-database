@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS alunos (
+	id SERIAL NOT NULL,
+	nome VARCHAR(50) NOT NULL,
+
+	CONSTRAINT pk_aln_id PRIMARY KEY (id)
+);
