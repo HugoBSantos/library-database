@@ -1,12 +1,12 @@
 INSERT INTO livro_autor (id_livro, id_autor)
 VALUES (
-	(SELECT id FROM livros WHERE nome = 'Banco de Dados – 1 Edição'),
+	(SELECT id FROM livros WHERE nome = 'Banco de Dados - 1 Edição'),
 	(SELECT id FROM autores WHERE nome = 'Waldemar Setzer')
 );
 
 INSERT INTO livro_autor (id_livro, id_autor)
 VALUES (
-	(SELECT id FROM livros WHERE nome = 'Banco de Dados – 1 Edição'),
+	(SELECT id FROM livros WHERE nome = 'Banco de Dados - 1 Edição'),
 	(SELECT id FROM autores WHERE nome = 'Flávio Soares')
 );
 
@@ -36,7 +36,7 @@ VALUES (
 
 INSERT INTO livro_autor (id_livro, id_autor)
 VALUES (
-	(SELECT id FROM livros WHERE nome = 'HTML5 – Guia Prático'),
+	(SELECT id FROM livros WHERE nome = 'HTML5 - Guia Prático'),
 	(SELECT id FROM autores WHERE nome = 'Evandro Carlos Teruel')
 );
 

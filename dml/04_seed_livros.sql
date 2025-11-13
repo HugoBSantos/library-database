@@ -2,7 +2,7 @@ INSERT INTO livros (id_editora, id_categoria, nome)
 VALUES (
 	(SELECT id FROM editoras WHERE nome = 'Edgard Blusher'),
 	(SELECT id FROM categorias WHERE nome = 'Banco de Dados'),
-	'Banco de Dados – 1 Edição'
+	'Banco de Dados - 1 Edição'
 );
 
 INSERT INTO livros (id_editora, id_categoria, nome)
@@ -30,7 +30,7 @@ INSERT INTO livros (id_editora, id_categoria, nome)
 VALUES (
 	(SELECT id FROM editoras WHERE nome = 'Brasport'), 
 	(SELECT id FROM categorias WHERE nome = 'HTML'), 
-	'HTML5 – Guia Prático'
+	'HTML5 - Guia Prático'
 );
 
 INSERT INTO livros (id_editora, id_categoria, nome)
