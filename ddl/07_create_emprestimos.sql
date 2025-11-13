@@ -9,3 +9,6 @@ CREATE TABLE IF NOT EXISTS emprestimos (
 	CONSTRAINT pk_emp_id PRIMARY KEY (id),
 	CONSTRAINT fk_emp_idaluno FOREIGN KEY (id_aluno) REFERENCES alunos (id)
 );
+
+CREATE INDEX idx_emp_data_emprestimo ON emprestimos (data_emprestimo);
+CREATE INDEX idx_emp_data_devolucao ON emprestimos (data_devolucao);
